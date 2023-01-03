@@ -117,7 +117,7 @@ p{
     box-sizing: border-box;
     transition: 0.5s;
 }
-h3{
+h2{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
@@ -134,7 +134,7 @@ h3{
 }
 .campus-col{
     flex-basis: 32%;
-    border-radius: 10px;
+
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
@@ -147,7 +147,7 @@ h3{
 .layer{
     background: transparent;
     height: 100%;
-    width: 100%;
+    width: 85%;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -156,11 +156,11 @@ h3{
 .layer:hover{
     background: rgba(226,0,0,0.7);
 }
-.layer h3{
+.layer h2{
     width: 100%;
     font-weight: 500;
     color: #fff;
-    font-size: 26px;
+    font-size: 20px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -168,7 +168,7 @@ h3{
     opacity: 0;
     transition: 0.5s;
 }
-.layer:hover h3{
+.layer:hover h2{
     bottom: 49%;
     opacity: 1;
 }
